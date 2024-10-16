@@ -50,15 +50,13 @@ function Content() {
           <div className="flex flex-col justify-center">
 <button
   onClick={handleClick}
-  className="bg-red-500 text-background font-semibold text-4xl sm:text-6xl p-6 sm:p-8 text-center mx-auto rounded-lg mt-64 sm:mt-44 hover:shadow-2xl hover:shadow-accent/50 hover:text-text active:scale-95 transition-colors duration-200"
+  className="bg-red-500 text-background font-semibold text-3xl sm:text-5xl p-3 sm:p-5 text-center mx-auto rounded-lg mt-64 sm:mt-44 hover:shadow-2xl hover:shadow-accent/50 hover:text-text active:scale-95 transition-colors duration-200"
 >
   <span>Start</span>
 </button>
 
 
-            <span className="text-text text-center mt-4">
-              Click the button above to reveal a surprise
-            </span>
+
           </div>
         )}
 
@@ -70,7 +68,7 @@ function Content() {
               rel="noopener noreferrer"
               className="hover:scale-110 active:scale-95 transition duration-200"
             >
-              <img width={30} height={30} src="/pump-fun.svg" alt="Pump Fun" />
+              <img width={50} height={50} src="/pump-fun.svg" alt="Pump Fun" />
             </a>
             <a
               href="https://t.me/notajumpscare"
@@ -78,7 +76,7 @@ function Content() {
               rel="noopener noreferrer"
               className="hover:scale-110 active:scale-95 transition duration-200"
             >
-              <img width={30} height={30} src="/telegram.svg" alt="Telegram" />
+              <img width={50} height={50} src="/telegram.svg" alt="Telegram" />
             </a>
             <a
               href="https://x.com/Notajumpscare"
@@ -86,7 +84,7 @@ function Content() {
               rel="noopener noreferrer"
               className="hover:scale-110 active:scale-95 transition duration-200"
             >
-              <img width={30} height={30} src="/twitter.svg" alt="Twitter" />
+              <img width={50} height={50} src="/twitter.svg" alt="Twitter" />
             </a>
           </div>
         )}
