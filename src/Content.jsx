@@ -42,7 +42,7 @@ function Content() {
       <div className="h-screen">
         <div className="p-5">
           <h1 className="text-text font-black text-4xl sm:text-5xl text-center uppercase">
-            Heartstopper
+            Not A Jump Scare
           </h1>
         </div>
 
@@ -52,7 +52,7 @@ function Content() {
               onClick={handleClick}
               className="bg-primary-button text-background font-semibold text-3xl sm:text-5xl p-3 sm:p-5 text-center mx-auto rounded-lg mt-64 sm:mt-44 hover:shadow-2xl hover:shadow-accent/50 hover:text-text active:scale-95 transition-colors duration-200"
             >
-              <span>Start the Experience</span>
+              <span>Start</span>
             </button>
             <span className="text-text text-center mt-4">
               Click the button above to reveal a surprise
@@ -64,21 +64,27 @@ function Content() {
           <div className="fixed w-full bottom-0 gap-4 pb-8 flex flex-row justify-center items-center">
             <a
               href="https://pump.fun/board"
+              target="_blank"
+              rel="noopener noreferrer"
               className="hover:scale-110 active:scale-95 transition duration-200"
             >
-              <img width={30} height={30} src="/pump-fun.svg" />
+              <img width={30} height={30} src="/pump-fun.svg" alt="Pump Fun" />
             </a>
             <a
               href="https://t.me/notajumpscare"
+              target="_blank"
+              rel="noopener noreferrer"
               className="hover:scale-110 active:scale-95 transition duration-200"
             >
-              <img width={30} height={30} src="/telegram.svg" />
+              <img width={30} height={30} src="/telegram.svg" alt="Telegram" />
             </a>
             <a
               href="https://x.com/Notajumpscare"
+              target="_blank"
+              rel="noopener noreferrer"
               className="hover:scale-110 active:scale-95 transition duration-200"
             >
-              <img width={30} height={30} src="/twitter.svg" />
+              <img width={30} height={30} src="/twitter.svg" alt="Twitter" />
             </a>
           </div>
         )}
