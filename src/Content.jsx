@@ -63,7 +63,7 @@ function Content() {
         {!isJumpscareVisible && (
           <div className="fixed w-full bottom-0 gap-4 pb-8 flex flex-row justify-center items-center">
             <a
-              href="https://pump.fun/board"
+              href="https://pump.fun/H2v77NEjQhW4xuiWdsgKRnRLJR4ynasMvWgZLPLspump"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:scale-110 active:scale-95 transition duration-200"
